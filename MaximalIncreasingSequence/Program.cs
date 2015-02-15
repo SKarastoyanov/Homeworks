@@ -1,8 +1,8 @@
-﻿/*Write a program that finds the maximal sequence of equal elements in an array.*/
+﻿/*Write a program that finds the maximal increasing sequence in an array.*/
 
 using System;
 
-namespace MaximalSequence
+namespace MaximalIncreasingSequence
 {
     class Program
     {
@@ -11,21 +11,20 @@ namespace MaximalSequence
             char[] separators = { ' ', ',' };
             Console.Write("Enter a sequence of characters: ");
             string[] sequence = Console.ReadLine().Split(separators, StringSplitOptions.RemoveEmptyEntries);
-
             string temp = string.Empty;
             string longestSeq = string.Empty;
             
             for (int i = 0; i < sequence.Length; i++)
             {
-                if (i < sequence.Length -1 && sequence[i] == sequence[i+1])
+                if (i < sequence.Length -1 && int.Parse(sequence[i]) < int.Parse(sequence[i+1]))
                 {
                     if (temp.Length == 0)
                     {
-                        temp = sequence[i].ToString() + ", " + sequence[i + 1];
+                        temp = sequence[i].ToString() + ", " +sequence[i + 1];
                     }
                     else
                     {
-                        temp +=", " + sequence[i + 1];
+                        temp += ", " + sequence[i + 1];
                     }
                 }
                 else

@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AllocateArray", "AllocateArray\AllocateArray.csproj", "{8714FC1B-8E61-4D62-AFA7-13883E169FD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. AllocateArray", "AllocateArray\1. AllocateArray.csproj", "{8714FC1B-8E61-4D62-AFA7-13883E169FD6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareArrays", "CompareArrays\CompareArrays.csproj", "{28E29AFE-1F03-4931-A224-4609A3EDE72B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. CompareArrays", "CompareArrays\2. CompareArrays.csproj", "{28E29AFE-1F03-4931-A224-4609A3EDE72B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompareCharArrays", "CompareCharArrays\CompareCharArrays.csproj", "{8C4099E0-D735-4058-9B1E-4999014D40A3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3. CompareCharArrays", "CompareCharArrays\3. CompareCharArrays.csproj", "{8C4099E0-D735-4058-9B1E-4999014D40A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaximalSequence", "MaximalSequence\MaximalSequence.csproj", "{3F9DAA56-62D2-4DB0-A8DA-D1019C1B73E9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4. MaximalSequence", "MaximalSequence\4. MaximalSequence.csproj", "{3F9DAA56-62D2-4DB0-A8DA-D1019C1B73E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5. MaximalIncreasingSequence", "MaximalIncreasingSequence\5. MaximalIncreasingSequence.csproj", "{F7745444-558F-4695-A267-FEC4D03EF5CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{3F9DAA56-62D2-4DB0-A8DA-D1019C1B73E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F9DAA56-62D2-4DB0-A8DA-D1019C1B73E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F9DAA56-62D2-4DB0-A8DA-D1019C1B73E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7745444-558F-4695-A267-FEC4D03EF5CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7745444-558F-4695-A267-FEC4D03EF5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7745444-558F-4695-A267-FEC4D03EF5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7745444-558F-4695-A267-FEC4D03EF5CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
